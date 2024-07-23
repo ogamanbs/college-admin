@@ -1,9 +1,8 @@
 import React from 'react';
+import Dashboard from '../components/dashboard/Dashboard';
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center w-full min-h-screen">
-      <h1 className="text-3xl font-bold">Landing page</h1>
-    </div>
+    <Dashboard />
   );
 }
